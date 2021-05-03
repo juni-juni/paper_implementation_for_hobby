@@ -28,5 +28,7 @@
 ### Discriminator
 * use nn.LeakyReLU(negative_slope=0.2, inplace=True) instead of nn.ReLU
 * Real_Fake Classifier & Categorical Classifier
-* img_size = [64x64 -> 32x32 -> 16x16 -> 8x8 -> 4x4] -> [4x4->1x1]  #for Real_Fake Classifier
+* img_size = [64x64 -> 32x32 -> 16x16 -> 8x8 -> 4x4] -> [4x4->1x1]                  #for Real_Fake Classifier
                                                         [flatten -> num_classes]    #for Categorical Classifier
+* channels = [3 -> 64 -> 64*2 =>64*4 =>64*8] => [64*8 -> 1]                         # for Real_Fake Classifier
+                                             => [flatten -> num_classes]            # for Categorical Classifier
