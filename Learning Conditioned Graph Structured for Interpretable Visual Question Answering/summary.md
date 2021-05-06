@@ -1,4 +1,4 @@
-# Learning Conditioned Graph Structures forInterpretable Visual Question Answering
+# Learning Conditioned Graph Structures for Interpretable Visual Question Answering
 
 ## for word embedding 
 - pretrained a dynamic Gated Recurrent Unit (hidden size of 1024)
